@@ -38,3 +38,37 @@ for(let i=1; i<=8; i++){
 // 7: 
 for(let i= 1; i<=15; i= 1 +2){
     console.log(i);}
+
+
+// 8: verifique se uma pessoa com 17 anos é
+let idade =17;
+if(idade >=18){
+console.log("maior de idade");
+}else{
+    console.log("menor de idade");
+}
+
+
+// 9: verifique se o numero 7 é par ou inpar
+
+
+
+
+
+
+
+
+// 10: verifique se a nota 
+let nota =7.5;
+if(nota>=6){
+    console.log("Aprovado")
+}else{
+    console.log("Reprovado");}
+
+// 11: verifique se o numero 8 é maior que 10
+let numero = 0;
+if(numero > 10){
+    console.log("8 é maior que 10");
+}else{
+    console.log("8 não e maior que 10");
+}
