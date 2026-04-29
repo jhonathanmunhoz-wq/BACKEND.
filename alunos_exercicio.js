@@ -72,3 +72,42 @@ if(numero > 10){
 }else{
     console.log("8 não e maior que 10");
 }
+
+
+// 12
+let numeros = [1,2,3,4]
+console.log("FOR")
+for(let i= 0; i < numeros.lenght;){
+    console.log(numeros(i));
+}
+
+console.log("forEach anonima")
+numeros.forEach(function(n){
+     console.log(n);
+});
+
+console.log("forEach arrow")
+numeros.forEach(n => console.log(n));
+
+// mostre todos os valores no terminal:
+
+
+
+// dados do rray: 
+
+
+
+// let frutas["maça", "banana", "uva", "abacate"];
+const lista = ["Maçã", "Banana", "Laranja", "Uva"];
+lista.forEach(item => {
+    console.log(item);
+  });
+  for (const item of lista) {
+    console.log(item);
+  }
+  console.table(lista);
+  for (let i = 0; i < lista.length; i++) {
+    console.log(lista[i]);
+  }
+  
+  
